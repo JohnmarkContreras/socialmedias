@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    margin:0;
+    scroll-behavior: smooth;
+}
+.hero .bgimg img{
+    width: 100%;
+    height: 15rem;
+    background-size: cover;
+    object-fit: cover;
+}
+.section{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: -60px;
+    width: 400px;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+.section img{
+    border-radius: 9rem;
+    width: 8rem;
+    z-index: 1;
+}
+.section .text{
+    color: rgb(223, 220, 220);
+    text-align: center;
+    margin-top: 0px;
+}
+.section .text p{
+    margin-top: 0;
+}
+.section ul{
+    display: inline-flex;
+}
+.socials{
+    display: flex column nowrap;
+}
+.socials img{
+    width: 30px;
+    margin: 8px;
+    height: 30px;
+}
+.socials .linked{
+    display: flex;
+    width: 100%;
+    margin-top:4px;
+    border-radius:5px;
+    background-color: rgb(24,24,27);
+    align-items: center;
+}
+.socials .linked img{
+    background-size: 20px;
+}
+.socials a{
+    color: rgb(125, 125, 135);
+    text-decoration: none;
+}
+.section .credits p,a{
+    color: white;
+}
+
+@media only screen and(max-width:768px) {
+    body{
+        background-color: aliceblue;
+    }
+    .hero img{
+        background-size: cover;
+    }
+
+}
